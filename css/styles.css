@@ -26,7 +26,7 @@ body{
     letter-spacing: 2%;
 }
 .logo{
-    font-family: "Raleway";
+    font-family: "Raleway", "sans-serif";
     font-weight: 700;
         font-size: 18px;
         line-height: 117%;
@@ -54,15 +54,10 @@ color:var(--iris);
 
 
 
-.nav-menu .link:hover .nav-menu .link:focus {
+.nav-menu .link:hover, .nav-menu .link:focus {
     color: var(--ocean);
 }
 
-.studio .link:active{
-    color:var(--ocean);
-    text-decoration: underline;
-    text-decoration-color:var(--ocean);
-}
 
 .address-style {
     font-style: normal;
@@ -76,7 +71,7 @@ color:var(--iris);
         
 }
 
-.address-list.link:hover .address-list .link:focus {
+.address-list.link:hover , .address-list .link:focus {
     color:#404BBF;
 }
 
@@ -103,7 +98,7 @@ background-color: var(--navy-blue);
     background-color: var(--iris);
     color:var(--white);
 }
-.primary-button .link:hover .link:focus{
+.primary-button .link:hover, .primary-button .link:focus{
     background-color: #404BBF;
 }
 .second-section{
@@ -150,7 +145,7 @@ background-color: var(--navy-blue);
     background-color: var(--navy-blue);
 }
 .cloud-text{
-    color:var(cloud);
+    color:var(--cloud);
 }
 
 .footer-p{
