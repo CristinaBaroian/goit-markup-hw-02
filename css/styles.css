@@ -51,10 +51,13 @@ color:var(--iris);
         color:var(--navy-blue);
 
 }
+nav-menu .link{
+    color:var(--navy-blue)
+}
 
-.nav-menu-active,
-.nav-menu .link:hover,
-.nav-menu .link:focus{
+
+.nav-menu:hover,
+.nav-menu:focus{
     color: var(--ocean);
 }
 
@@ -71,10 +74,12 @@ color:var(--iris);
         
 }
 
-.address-link-active,
-.address-link .link:hover,
-.address-link .link:focus {
-    color:var(--ocean);
+
+
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--ocean);
 }
 
 .main-section{
@@ -102,9 +107,9 @@ background-color: var(--navy-blue);
 }
 
 
-.primary-button-active
-.primary-button .link:hover, 
-.primary-button .link:focus{
+
+.primary-button:hover, 
+.primary-button:focus{
     background-color:var(--ocean);
 }
 .second-section{
