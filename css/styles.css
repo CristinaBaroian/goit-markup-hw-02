@@ -52,9 +52,7 @@ color:var(--iris);
 
 }
 
-.nav-menu .link {
-color: var(--navy-blue);
-}
+.nav-menu-active,
 .nav-menu .link:hover,
 .nav-menu .link:focus{
     color: var(--ocean);
@@ -73,10 +71,7 @@ color: var(--navy-blue);
         
 }
 
-.address-link .link {
-    color: var(--slate);
-}
-
+.address-link-active,
 .address-link .link:hover,
 .address-link .link:focus {
     color:var(--ocean);
@@ -106,10 +101,8 @@ background-color: var(--navy-blue);
     color:var(--white);
 }
 
-.primary-button .link{
-    background-color: var(--iris);
-}
 
+.primary-button-active
 .primary-button .link:hover, 
 .primary-button .link:focus{
     background-color:var(--ocean);
